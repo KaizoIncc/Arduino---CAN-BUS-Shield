@@ -3,7 +3,7 @@
 ## **Índice**
 1. [Introducción](#introducción)
 2. [Materiales necesarios](#materiales-necesarios)
-3. [Instalación de la biblioteca](#instalación-de-la-biblioteca)
+3. [Instalación de la biblioteca](#3.-Instalación-de-la-biblioteca)
 4. [Conexión del hardware](#conexión-del-hardware)
 5. [Explicación detallada del código](#explicación-detallada-del-código)
    - [Emisor CAN](#emisor-can)
