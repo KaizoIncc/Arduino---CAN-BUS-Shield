@@ -309,12 +309,12 @@ void loop() {
 
 | **Parámetro** | **Descripción** | **Posibles valores** |
 |---------------|-----------------|----------------------|
-| VELOCIDAD_CAN | Velocidad del bus CAN | CAN_5KBPS, CAN_100KBPS, CAN_500KBPS, CAN_1000KBPS, etc. |
-| FRECUENCIA_CRISTAL | Frecuencia del cristal del MCP2515 | MCP_8MHz, MCP_12MHz, MCP_16MHz, etc. |
-| ID_MENSAJE    | ID del mensaje enviado | Número hexadecimal o decimal (ej. 0x100, 256) |
-| TIPO_ID       | Tipo de ID (estándar o extendido) | 0 (ID estándar), 1 (ID extendido) |
-| TAMAÑO_DATOS	 | Cantidad de bytes enviados | Entre 1 y 8 |
-| DATOS_EN_BYTES|	Array con los datos | Ejemplo: {0x12, 0x34} |
-| INTERVALO_ENVÍO_MS | Tiempo entre envíos | En milisegundos (1000 para 1s) |
-| ID_ESPERADO | ID del mensaje que el receptor debe procesar | Mismo ID que el emisor (0x100) |
-| TAMAÑO_ESPERADO | Número de bytes esperados | Igual al tamaño enviado por el emisor |
+| `VELOCIDAD_CAN` | Velocidad del bus CAN | `CAN_5KBPS`, `CAN_100KBPS`, `CAN_500KBPS`, `CAN_1000KBPS`, etc. |
+| `FRECUENCIA_CRISTAL` | Frecuencia del cristal del MCP2515 | `MCP_8MHz`, `MCP_12MHz`, `MCP_16MHz`, etc. |
+| `ID_MENSAJE`    | ID del mensaje enviado | Número hexadecimal o decimal (ej. 0x100, 256) |
+| `TIPO_ID`       | Tipo de ID (estándar o extendido) | `0` (ID estándar), `1` (ID extendido) |
+| `TAMAÑO_DATOS`	 | Cantidad de bytes enviados | Entre 1 y 8 |
+| `DATOS_EN_BYTES` | Array con los datos | Ejemplo: {0x12, 0x34} |
+| `INTERVALO_ENVÍO_MS` | Tiempo entre envíos | En milisegundos (1000 para 1s) |
+| `ID_ESPERADO` | ID del mensaje que el receptor debe procesar | Mismo ID que el emisor (0x100) |
+| `TAMAÑO_ESPERADO` | Número de bytes esperados | Igual al tamaño enviado por el emisor |
