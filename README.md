@@ -422,7 +422,7 @@ void loop() {
             // Reconstruir el dato recibido (modifica si el formato cambia)
             int datoRecibido = (data[0] << 8) | data[1];
 
-            Serial.print("Voltaje recibido: ");
+            Serial.print("Dato recibido: ");
             Serial.print(datoRecibido);
             Serial.println(" V");
         }
