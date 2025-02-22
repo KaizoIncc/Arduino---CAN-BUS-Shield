@@ -423,8 +423,7 @@ void loop() {
             int datoRecibido = (data[0] << 8) | data[1];
 
             Serial.print("Dato recibido: ");
-            Serial.print(datoRecibido);
-            Serial.println(" V");
+            Serial.println(datoRecibido);
         }
     }
 }
